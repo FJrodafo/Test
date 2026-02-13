@@ -1,0 +1,27 @@
+name: Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  deployment:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: |
+          cd ./App
+          npm install
+
+      - name: Lint
+        run: |
+          cd ./App
+          npm run eslint
