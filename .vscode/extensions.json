@@ -5,6 +5,7 @@
     "midudev.better-svg",
     "ms-python.black-formatter",
     "redhat.vscode-xml",
-    "redhat.vscode-yaml"
+    "redhat.vscode-yaml",
+    "vscjava.vscode-java-pack"
   ]
 }
