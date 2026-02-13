@@ -1,0 +1,14 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  echo:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Echo the message
+        run: |
+          echo "Test"
