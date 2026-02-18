@@ -1,14 +1,9 @@
 name: Test
-
-on:
-  push:
-    branches:
-      - main
-
+on: [push, pull_request]
 jobs:
   echo:
     runs-on: ubuntu-slim
     steps:
       - name: Echo the message
         run: |
-          echo "Test"
+          echo "💥"
