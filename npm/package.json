@@ -1,0 +1,23 @@
+{
+  "name": "@fjrodafo/test",
+  "version": "1.0.0",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cubilia sodales pellentesque risus scelerisque volutpat sit turpis. Potenti justo erat, torquent turpis dolor porta proin hac nibh fames. Pellentesque nisi feugiat aptent orci, risus sed, at taciti nisl massa ad. Dapibus conubia eleifend nunc nulla purus nibh. Gravida inceptos varius mauris consectetur scelerisque justo. Accumsan varius quisque blandit malesuada aenean quis quis suscipit. Duis iaculis rutrum suscipit est fusce volutpat blandit libero lacus fames eget. A magna turpis, est litora, inceptos, pharetra maximus. Sapien tristique inceptos massa, diam tincidunt.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:github": "npm publish --registry=https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FJrodafo/Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0-1.0",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FJrodafo/Test/issues"
+  },
+  "homepage": "https://github.com/FJrodafo/Test#readme"
+}
