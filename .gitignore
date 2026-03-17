@@ -1,6 +1,11 @@
 # Apache Maven
 /Apache_Maven/target
 
+# NuGet
+/NuGet/test/bin
+/NuGet/test/obj
+/NuGet/test/nuget.config
+
 # Releases
 /releases/*
 !releases/VERSION.md
