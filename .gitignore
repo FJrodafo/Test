@@ -1,3 +1,6 @@
+# Apache Maven
+/Apache_Maven/target
+
 # Releases
 /releases/*
 !releases/VERSION.md
