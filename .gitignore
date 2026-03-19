@@ -1,10 +1,10 @@
 # Apache Maven
-/Apache_Maven/target
+/Packages/Apache_Maven/target
 
 # NuGet
-/NuGet/test/bin
-/NuGet/test/obj
-/NuGet/test/nuget.config
+/Packages/NuGet/test/bin
+/Packages/NuGet/test/obj
+/Packages/NuGet/test/nuget.config
 
 # Releases
 /releases/*
