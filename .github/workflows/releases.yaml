@@ -6,6 +6,8 @@ on:
 permissions:
   contents: write  # To create the Release and upload artifacts.
   id-token: write  # Required for cosign to use OIDC (no keys needed).
+  attestations: write
+  artifact-metadata: write
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -64,7 +66,14 @@ jobs:
               "${SNAKE}-${{ github.ref_name }}.sha256"
             echo "Signed: ${SNAKE}-${{ github.ref_name }}"
           done
-      # 7. Create the Release and upload everything.
+      # 7. Attest artifacts.
+      - name: Attest all artifacts
+        uses: actions/attest@v4
+        with:
+          subject-path: |
+            *-${{ github.ref_name }}.zip
+            *-${{ github.ref_name }}.tar.gz
+      # 8. Create the Release and upload everything.
       - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
