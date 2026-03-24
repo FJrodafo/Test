@@ -1,0 +1,98 @@
+name: Releases
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]*'  # 1.0.0, 2.1.3, 1.0.0-beta, etc.
+permissions:
+  contents: write  # To create the Release and upload artifacts.
+  id-token: write  # Required for cosign to use OIDC (no keys needed).
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout the code.
+      - name: Checkout
+        uses: actions/checkout@v6
+      # 2. Install cosign.
+      - name: Install Cosign
+        uses: sigstore/cosign-installer@v4.1.0
+      - name: Check install!
+        run: cosign version
+      # 3. Package the full source code (same as GitHub).
+      - name: Package source code
+        run: |
+          git archive --format=zip HEAD -o test-${{ github.ref_name }}.zip
+          git archive --format=tar.gz HEAD -o test-${{ github.ref_name }}.tar.gz
+      # 4. Package each folder in /Packages separately.
+      - name: Package /Packages folders
+        run: |
+          declare -A SNAKE_NAMES=(
+            [Apache_Maven]="apache_maven"
+            [Containers]="containers"
+            [npm]="npm"
+            [NuGet]="nuget"
+            [RubyGems]="rubygems"
+          )
+          for PACKAGE in Apache_Maven Containers npm NuGet RubyGems; do
+            SNAKE="${SNAKE_NAMES[$PACKAGE]}"
+            zip -r "${SNAKE}-${{ github.ref_name }}.zip" "Packages/${PACKAGE}"
+            tar -czf "${SNAKE}-${{ github.ref_name }}.tar.gz" "Packages/${PACKAGE}"
+          done
+      # 5. Sign the full source code (one .sigstore.json for zip+tar.gz).
+      - name: Sign source code
+        run: |
+          sha256sum \
+            test-${{ github.ref_name }}.zip \
+            test-${{ github.ref_name }}.tar.gz \
+            > test-${{ github.ref_name }}.sha256
+          cosign sign-blob \
+            --yes \
+            --bundle "test-${{ github.ref_name }}.sigstore.json" \
+            "test-${{ github.ref_name }}.sha256"
+          echo "Signed: test-${{ github.ref_name }}"
+      # 6. Sign each folder (one .sigstore.json per folder, covers zip+tar.gz).
+      - name: Sign /Packages folders
+        run: |
+          for SNAKE in apache_maven containers npm nuget rubygems; do
+            sha256sum \
+              "${SNAKE}-${{ github.ref_name }}.zip" \
+              "${SNAKE}-${{ github.ref_name }}.tar.gz" \
+              > "${SNAKE}-${{ github.ref_name }}.sha256"
+            cosign sign-blob \
+              --yes \
+              --bundle "${SNAKE}-${{ github.ref_name }}.sigstore.json" \
+              "${SNAKE}-${{ github.ref_name }}.sha256"
+            echo "Signed: ${SNAKE}-${{ github.ref_name }}"
+          done
+      # 7. Create the Release and upload everything.
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create ${{ github.ref_name }} \
+            --title "${{ github.ref_name }}" \
+            --generate-notes \
+            test-*.zip \
+            test-*.tar.gz \
+            test-*.sha256 \
+            test-*.sigstore.json \
+            apache_maven-*.zip \
+            apache_maven-*.tar.gz \
+            apache_maven-*.sha256 \
+            apache_maven-*.sigstore.json \
+            containers-*.zip \
+            containers-*.tar.gz \
+            containers-*.sha256 \
+            containers-*.sigstore.json \
+            npm-*.zip \
+            npm-*.tar.gz \
+            npm-*.sha256 \
+            npm-*.sigstore.json \
+            nuget-*.zip \
+            nuget-*.tar.gz \
+            nuget-*.sha256 \
+            nuget-*.sigstore.json \
+            rubygems-*.zip \
+            rubygems-*.tar.gz \
+            rubygems-*.sha256 \
+            rubygems-*.sigstore.json
