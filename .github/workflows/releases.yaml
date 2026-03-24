@@ -74,3 +74,13 @@ jobs:
             *-${{ github.ref_name }}.zip
             *-${{ github.ref_name }}.tar.gz
           push-to-registry: true
+      # 8. Upload artifacts.
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-artifacts
+          path: |
+            *.zip
+            *.tar.gz
+            *.sha256
+            *.sigstore.json
