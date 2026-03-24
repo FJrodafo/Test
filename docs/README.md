@@ -9,7 +9,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cubilia sodales pellent
 3. [npm](#npm)
 4. [NuGet](#nuget)
 5. [RubyGems](#rubygems)
-6. [Resources](#resources)
+6. [Releases](#releases)
+7. [Resources](#resources)
 
 ## Apache Maven
 
@@ -106,6 +107,33 @@ gem push fjrodafo-test-1.0.0.gem
 ```shell
 # Push to GitHub Packages
 gem push --key github --host https://rubygems.pkg.github.com/FJrodafo fjrodafo-test-1.0.0.gem
+```
+
+## Releases
+
+Download the files:
+
+```shell
+wget https://github.com/FJrodafo/Test/releases/download/1.0.0/apache_maven-1.0.0.zip
+wget https://github.com/FJrodafo/Test/releases/download/1.0.0/apache_maven-1.0.0.tar.gz
+wget https://github.com/FJrodafo/Test/releases/download/1.0.0/apache_maven-1.0.0.sha256
+wget https://github.com/FJrodafo/Test/releases/download/1.0.0/apache_maven-1.0.0.sigstore.json
+```
+
+Verify the signature of the hash file:
+
+```shell
+cosign verify-blob \
+  --bundle apache_maven-1.0.0.sigstore.json \
+  --certificate-identity-regexp="https://github.com/FJrodafo/Test" \
+  --certificate-oidc-issuer="https://token.actions.githubusercontent.com" \
+  apache_maven-1.0.0.sha256
+```
+
+Verify the files match the hashes:
+
+```shell
+sha256sum --check apache_maven-1.0.0.sha256
 ```
 
 ## Resources
