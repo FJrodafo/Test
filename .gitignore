@@ -6,6 +6,9 @@
 /Packages/NuGet/test/obj
 /Packages/NuGet/test/nuget.config
 
+# RubyGems
+/Packages/RubyGems/**/*.gem
+
 # Releases
 /releases/*
 !releases/CHANGELOG.md
