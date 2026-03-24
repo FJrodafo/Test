@@ -68,18 +68,13 @@ jobs:
           done
       # 7. Attest artifacts.
       - name: Attest all artifacts
-        id: attest
         uses: actions/attest@v4
         with:
           subject-path: |
             *-${{ github.ref_name }}.zip
             *-${{ github.ref_name }}.tar.gz
           push-to-registry: true
-      # 8. Save attestation file.
-      - name: Save attestation file
-        run: |
-          cp "${{ steps.attest.outputs.bundle-path }}" attestation-${{ github.ref_name }}.json
-      # 9. Upload artifacts.
+      # 8. Upload artifacts.
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -89,11 +84,10 @@ jobs:
             *.tar.gz
             *.sha256
             *.sigstore.json
-            attestation-${{ github.ref_name }}.json
-      # 10. List artifacts before release.
+      # 9. List artifacts before release.
       - name: List artifacts before release
         run: ls -l
-      # 11. Create the Release and upload everything.
+      # 10. Create the Release and upload everything.
       - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -101,5 +95,4 @@ jobs:
           gh release create ${{ github.ref_name }} \
             --title "${{ github.ref_name }}" \
             --generate-notes \
-            *.zip *.tar.gz *.sha256 *.sigstore.json \
-            attestation-${{ github.ref_name }}.json
+            *.zip *.tar.gz *.sha256 *.sigstore.json
