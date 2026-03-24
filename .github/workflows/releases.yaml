@@ -74,6 +74,7 @@ jobs:
           gh release create ${{ github.ref_name }} \
             --title "${{ github.ref_name }}" \
             --generate-notes \
+            --target ${{ github.ref_name }} \
             *.zip *.tar.gz *.sha256 *.sigstore.json
       # 8. Attest artifacts.
       - name: Attest all artifacts
@@ -82,7 +83,6 @@ jobs:
           subject-path: |
             *-${{ github.ref_name }}.zip
             *-${{ github.ref_name }}.tar.gz
-          push-to-release: true
           push-to-registry: true
       # 9. Upload artifacts.
       - name: Upload artifacts
