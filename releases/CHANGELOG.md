@@ -8,11 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- This CHANGELOG.md to track all notable changes to this project going forward.
+- ...
 
 ### Changed
 
-- The package directories were moved to the `Packages` directory.
+- ...
 
 ### Deprecated
 
@@ -30,11 +30,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - ...
 
+## [1.0.0] - 2026-03-24
+
+### Added
+
+- This CHANGELOG.md to track all notable changes to this project going forward.
+
+### Changed
+
+- The package directories were moved to the `Packages` directory.
+
 ## [0.0.1] - 2026-03-19
 
 ### Added
 
 - All files (Existing project).
 
-[unreleased]: https://github.com/FJrodafo/Test/compare/0.0.1...HEAD
+[unreleased]: https://github.com/FJrodafo/Test/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/FJrodafo/Test/releases/tag/1.0.0
 [0.0.1]: https://github.com/FJrodafo/Test/releases/tag/0.0.1
