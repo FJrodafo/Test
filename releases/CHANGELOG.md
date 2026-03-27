@@ -30,7 +30,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - ...
 
-## [1.0.0] - 2026-03-24
+## [1.0.0] - 2026/03/24
 
 ### Added
 
@@ -40,7 +40,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - The package directories were moved to the `Packages` directory.
 
-## [0.0.1] - 2026-03-19
+## [0.0.1] - 2026/03/19
 
 ### Added
 
