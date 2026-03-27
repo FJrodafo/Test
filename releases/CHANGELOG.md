@@ -8,11 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- GitHub Linguist configuration.
+- ...
 
 ### Changed
 
-- The files `CODE_OF_CONDUCT.md` and `SECURITY.md` have been moved from the `.github` directory to `docs`.
+- ...
 
 ### Deprecated
 
@@ -30,6 +30,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - ...
 
+## [1.0.1] - 2026/03/27
+
+### Added
+
+- GitHub Linguist configuration.
+
+### Changed
+
+- The files `CODE_OF_CONDUCT.md` and `SECURITY.md` have been moved from the `.github` directory to `docs`.
+
 ## [1.0.0] - 2026/03/24
 
 ### Added
@@ -46,6 +56,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - All files (Existing project).
 
-[unreleased]: https://github.com/FJrodafo/Test/compare/1.0.0...HEAD
+[unreleased]: https://github.com/FJrodafo/Test/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/FJrodafo/Test/releases/tag/1.0.1
 [1.0.0]: https://github.com/FJrodafo/Test/releases/tag/1.0.0
 [0.0.1]: https://github.com/FJrodafo/Test/releases/tag/0.0.1
