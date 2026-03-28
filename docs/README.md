@@ -159,12 +159,10 @@ gem push --key github --host https://rubygems.pkg.github.com/FJrodafo fjrodafo-t
 
 ## Resources
 
-[Apache Maven](https://github.com/FJrodafo/Test/packages/2915747)
+[GitHub Docs](https://docs.github.com/en)
 ·
-[Containers](https://github.com/users/FJrodafo/packages/container/package/test)
+[GitHub Actions](https://docs.github.com/en/actions)
 ·
-[npm](https://github.com/users/FJrodafo/packages/npm/package/test)
+[GitHub Packages](https://docs.github.com/en/packages)
 ·
-[NuGet](https://github.com/users/FJrodafo/packages/nuget/package/test)
-·
-[RubyGems](https://github.com/users/FJrodafo/packages/rubygems/package/fjrodafo-test)
+[GitHub Pages](https://docs.github.com/en/pages)
