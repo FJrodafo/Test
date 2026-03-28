@@ -1,6 +1,6 @@
-# ===============================
-# Line ending normalization (EOL)
-# ===============================
+# ┌─────────────────────────────────┐
+# │ Line ending normalization (EOL) │
+# └─────────────────────────────────┘
 
 # Automatically detects text files and normalizes them to LF (Unix)
 # Git will convert CRLF -> LF on commit
@@ -12,10 +12,10 @@
 *.cmd text eol=crlf
 *.ahk text eol=crlf
 
-# ============================================
-# GitHub Linguist configuration
-# (how GitHub calculates repository languages)
-# ============================================
+# ┌──────────────────────────────────────────────┐
+# │ GitHub Linguist configuration                │
+# │ (how GitHub calculates repository languages) │
+# └──────────────────────────────────────────────┘
 
 # Force ALL files to be considered detectable
 # -> Included in language statistics
