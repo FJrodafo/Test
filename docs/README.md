@@ -3,11 +3,17 @@
 [![GitHub Pages](https://img.shields.io/badge/%20-white?style=social&logo=githubpages&logoColor=black&logoSize=auto)](https://fjrodafo.github.io/Test/)
 [![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/Test?style=social&logo=github&logoColor=black&label=Stars&labelColor=white&color=white)](https://github.com/FJrodafo/Test/stargazers)
 
-[![Apache Maven](https://img.shields.io/badge/test-white?style=flat&logo=apachemaven&logoColor=C71A36)](https://github.com/FJrodafo/Test/packages/2915747)
-[![Containers](https://img.shields.io/badge/test-white?style=flat&logo=docker&logoColor=2496ED)](https://github.com/FJrodafo/Test/pkgs/container/test)
-[![npm](https://img.shields.io/badge/test-white?style=flat&logo=npm&logoColor=CB3837)](https://github.com/FJrodafo/Test/pkgs/npm/test)
+[![Apache Maven](https://img.shields.io/badge/test-white?style=flat&logo=apachemaven&logoColor=D22128)](https://github.com/FJrodafo/Test/packages/2915747)
+[![Containers](https://img.shields.io/badge/test-white?style=flat&logo=docker&logoColor=2560FF)](https://github.com/FJrodafo/Test/pkgs/container/test)
+[![npm](https://img.shields.io/badge/test-white?style=flat&logo=npm&logoColor=cd0000)](https://github.com/FJrodafo/Test/pkgs/npm/test)
 [![NuGet](https://img.shields.io/badge/test-white?style=flat&logo=nuget&logoColor=004880)](https://github.com/FJrodafo/Test/pkgs/nuget/test)
 [![RubyGems](https://img.shields.io/badge/test-white?style=flat&logo=rubygems&logoColor=E9573F)](https://github.com/FJrodafo/Test/pkgs/rubygems/fjrodafo-test)
+
+[![Apache Maven](https://img.shields.io/badge/test-D22128?style=flat&logo=apachemaven&logoColor=white)](https://github.com/FJrodafo/Test/packages/2915747)
+[![Containers](https://img.shields.io/badge/test-2560FF?style=flat&logo=docker&logoColor=white)](https://github.com/FJrodafo/Test/pkgs/container/test)
+[![npm](https://img.shields.io/badge/test-cd0000?style=flat&logo=npm&logoColor=white)](https://github.com/FJrodafo/Test/pkgs/npm/test)
+[![NuGet](https://img.shields.io/badge/test-004880?style=flat&logo=nuget&logoColor=white)](https://github.com/FJrodafo/Test/pkgs/nuget/test)
+[![RubyGems](https://img.shields.io/badge/test-E9573F?style=flat&logo=rubygems&logoColor=white)](https://github.com/FJrodafo/Test/pkgs/rubygems/fjrodafo-test)
 
 ## Index
 
