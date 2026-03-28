@@ -8,11 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- ...
+- A configuration file for GitHub Pages documents (`docs/_config.yaml`).
 
 ### Changed
 
-- ...
+- Minor changes to `TODO.md` and `.gitattributes`.
+
+- A better version of `README.md`.
 
 ### Deprecated
 
