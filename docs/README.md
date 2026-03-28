@@ -1,16 +1,64 @@
 # Test
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cubilia sodales pellentesque risus scelerisque volutpat sit turpis. Potenti justo erat, torquent turpis dolor porta proin hac nibh fames. Pellentesque nisi feugiat aptent orci, risus sed, at taciti nisl massa ad. Dapibus conubia eleifend nunc nulla purus nibh. Gravida inceptos varius mauris consectetur scelerisque justo. Accumsan varius quisque blandit malesuada aenean quis quis suscipit. Duis iaculis rutrum suscipit est fusce volutpat blandit libero lacus fames eget. A magna turpis, est litora, inceptos, pharetra maximus. Sapien tristique inceptos massa, diam tincidunt.
+[![GitHub Pages](https://img.shields.io/badge/%20-white?style=social&logo=githubpages&logoColor=black&logoSize=auto)](https://fjrodafo.github.io/Test/)
+[![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/Test?style=social&logo=github&logoColor=black&label=Stars&labelColor=white&color=white)](https://github.com/FJrodafo/Test/stargazers)
+
+[![Apache Maven](https://img.shields.io/badge/test-white?style=flat&logo=apachemaven&logoColor=C71A36)](https://github.com/FJrodafo/Test/packages/2915747)
+[![Containers](https://img.shields.io/badge/test-white?style=flat&logo=docker&logoColor=2496ED)](https://github.com/FJrodafo/Test/pkgs/container/test)
+[![npm](https://img.shields.io/badge/test-white?style=flat&logo=npm&logoColor=CB3837)](https://github.com/FJrodafo/Test/pkgs/npm/test)
+[![NuGet](https://img.shields.io/badge/test-white?style=flat&logo=nuget&logoColor=004880)](https://github.com/FJrodafo/Test/pkgs/nuget/test)
+[![RubyGems](https://img.shields.io/badge/test-white?style=flat&logo=rubygems&logoColor=E9573F)](https://github.com/FJrodafo/Test/pkgs/rubygems/fjrodafo-test)
 
 ## Index
 
-1. [Apache Maven](#apache-maven)
-2. [Containers](#containers)
-3. [npm](#npm)
-4. [NuGet](#nuget)
-5. [RubyGems](#rubygems)
-6. [Releases](#releases)
-7. [Resources](#resources)
+1. [Introduction](#introduction)
+2. [Project structure](#project-structure)
+3. [Clone the repository](#clone-the-repository)
+4. [Apache Maven](#apache-maven)
+5. [Containers](#containers)
+6. [npm](#npm)
+7. [NuGet](#nuget)
+8. [RubyGems](#rubygems)
+9. [Resources](#resources)
+
+## Introduction
+
+A repository for trying out new things!
+
+This project has been developed on a [Linux](https://github.com/torvalds/linux) system. To learn more about the system, visit the [Dotfiles](https://github.com/FJrodafo/Dotfiles) repository.
+
+## Project structure
+
+```
+/
+├── docs/
+|   ├── _config.yaml
+|   ├── CODE_OF_CONDUCT.md
+|   ├── README.md
+|   └── SECURITY.md
+├── Packages/
+|   ├── Apache_Maven/
+|   ├── Containers/
+|   ├── npm/
+|   ├── NuGet/
+|   └── RubyGems/
+├── CONTRIBUTING
+└── LICENSE
+```
+
+## Clone the repository
+
+Open a terminal in the directory where you store your repositories and clone it with the following command:
+
+```shell
+# HTTPS
+git clone https://github.com/FJrodafo/Test.git
+```
+
+```shell
+# SSH
+git clone git@github.com:FJrodafo/Test.git
+```
 
 ## Apache Maven
 
@@ -107,33 +155,6 @@ gem push fjrodafo-test-1.0.0.gem
 ```shell
 # Push to GitHub Packages
 gem push --key github --host https://rubygems.pkg.github.com/FJrodafo fjrodafo-test-1.0.0.gem
-```
-
-## Releases
-
-Download the files:
-
-```shell
-wget https://github.com/FJrodafo/Test/releases/download/1.0.0/apache_maven-1.0.0.zip
-wget https://github.com/FJrodafo/Test/releases/download/1.0.0/apache_maven-1.0.0.tar.gz
-wget https://github.com/FJrodafo/Test/releases/download/1.0.0/apache_maven-1.0.0.sha256
-wget https://github.com/FJrodafo/Test/releases/download/1.0.0/apache_maven-1.0.0.sigstore.json
-```
-
-Verify the signature of the hash file:
-
-```shell
-cosign verify-blob \
-  --bundle apache_maven-1.0.0.sigstore.json \
-  --certificate-identity-regexp="https://github.com/FJrodafo/Test" \
-  --certificate-oidc-issuer="https://token.actions.githubusercontent.com" \
-  apache_maven-1.0.0.sha256
-```
-
-Verify the files match the hashes:
-
-```shell
-sha256sum --check apache_maven-1.0.0.sha256
 ```
 
 ## Resources
