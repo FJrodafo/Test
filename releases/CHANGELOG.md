@@ -12,8 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Changed
 
-- NuGet package description.
-- RubyGems package description.
+- ...
 
 ### Deprecated
 
@@ -25,11 +24,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Fixed
 
-- Packages Commands `README.md`
+- ...
 
 ### Security
 
 - ...
+
+## [1.0.3] - 2026/04/06
+
+### Changed
+
+- NuGet package description.
+- RubyGems package description.
+
+### Fixed
+
+- Packages Commands `README.md`
 
 ## [1.0.2] - 2026/04/06
 
