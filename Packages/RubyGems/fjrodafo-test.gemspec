@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name        = "fjrodafo-test"
   spec.version     = "1.0.0"
-  spec.summary     = "💥"
+  spec.summary     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cubilia sodales pellentesque risus scelerisque volutpat sit turpis. Potenti justo erat, torquent turpis dolor porta proin hac nibh fames. Pellentesque nisi feugiat aptent orci, risus sed, at taciti nisl massa ad. Dapibus conubia eleifend nunc nulla purus nibh. Gravida inceptos varius mauris consectetur scelerisque justo. Accumsan varius quisque blandit malesuada aenean quis quis suscipit. Duis iaculis rutrum suscipit est fusce volutpat blandit libero lacus fames eget. A magna turpis, est litora, inceptos, pharetra maximus. Sapien tristique inceptos massa, diam tincidunt."
 
   spec.authors     = ["Francisco José Rodríguez Afonso"]
 
