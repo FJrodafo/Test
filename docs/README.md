@@ -70,7 +70,7 @@ git clone git@github.com:FJrodafo/Test.git
 
 ```shell
 # Packages Commands
-cd Apache_Maven/
+cd Packages/Apache_Maven/
 mvn package
 java -cp target/test-1.0.0.jar Test
 ```
@@ -84,7 +84,7 @@ mvn deploy
 
 ```shell
 # Packages Commands
-cd Containers/
+cd Packages/Containers/
 docker build -t test .
 docker run --rm test:latest
 ```
@@ -105,7 +105,7 @@ docker push ghcr.io/fjrodafo/test:1.0.0
 
 ```shell
 # Packages Commands
-cd npm/
+cd Packages/npm/
 npm init -y
 npm start
 ```
@@ -124,7 +124,7 @@ npm run publish:github
 
 ```shell
 # Packages Commands
-cd NuGet/
+cd Packages/NuGet/
 dotnet new console -n test
 cd test/
 dotnet run
@@ -148,7 +148,7 @@ dotnet nuget push bin/Release/test.1.0.0.nupkg \
 
 ```shell
 # Packages Commands
-cd RubyGems/
+cd Packages/RubyGems/
 ruby lib/fjrodafo/test.rb
 gem build fjrodafo-test.gemspec
 ```
