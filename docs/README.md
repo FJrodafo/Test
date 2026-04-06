@@ -155,12 +155,12 @@ gem build fjrodafo-test.gemspec
 
 ```shell
 # Push to RubyGems
-gem push fjrodafo-test-1.0.0.gem
+gem push fjrodafo-test-1.0.1.gem
 ```
 
 ```shell
 # Push to GitHub Packages
-gem push --key github --host https://rubygems.pkg.github.com/FJrodafo fjrodafo-test-1.0.0.gem
+gem push --key github --host https://rubygems.pkg.github.com/FJrodafo fjrodafo-test-1.0.1.gem
 ```
 
 ## Resources
