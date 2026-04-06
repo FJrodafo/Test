@@ -133,14 +133,14 @@ dotnet pack --configuration Release
 
 ```shell
 # Push to NuGet
-dotnet nuget push bin/Release/test.1.0.0.nupkg \
+dotnet nuget push bin/Release/test.1.0.1.nupkg \
     --api-key API_KEY \
     --source https://api.nuget.org/v3/index.json
 ```
 
 ```shell
 # Push to GitHub Packages
-dotnet nuget push bin/Release/test.1.0.0.nupkg \
+dotnet nuget push bin/Release/test.1.0.1.nupkg \
     --source "github"
 ```
 
