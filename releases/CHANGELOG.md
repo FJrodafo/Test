@@ -8,13 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- A configuration file for GitHub Pages documents (`docs/_config.yaml`).
+- ...
 
 ### Changed
 
-- Minor changes to `TODO.md` and `.gitattributes`.
-- A better version of `README.md`.
-- Improved badges in `README.md`.
+- ...
 
 ### Deprecated
 
@@ -31,6 +29,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 ### Security
 
 - ...
+
+## [1.0.2] - 2026/04/06
+
+### Added
+
+- A configuration file for GitHub Pages documents (`docs/_config.yaml`).
+
+### Changed
+
+- Minor changes to `TODO.md` and `.gitattributes`.
+- A better version of `README.md`.
+- Improved badges in `README.md`.
 
 ## [1.0.1] - 2026/03/27
 
@@ -58,7 +68,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - All files (Existing project).
 
-[unreleased]: https://github.com/FJrodafo/Test/compare/1.0.1...HEAD
+[unreleased]: https://github.com/FJrodafo/Test/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/FJrodafo/Test/releases/tag/1.0.2
 [1.0.1]: https://github.com/FJrodafo/Test/releases/tag/1.0.1
 [1.0.0]: https://github.com/FJrodafo/Test/releases/tag/1.0.0
 [0.0.1]: https://github.com/FJrodafo/Test/releases/tag/0.0.1
