@@ -17,6 +17,12 @@
 [![NuGet](https://img.shields.io/badge/test-004880?style=flat&logo=nuget&logoColor=FFFFFF)](https://github.com/FJrodafo/Test/pkgs/nuget/test)
 [![RubyGems](https://img.shields.io/badge/test-E9573F?style=flat&logo=rubygems&logoColor=FFFFFF)](https://github.com/FJrodafo/Test/pkgs/rubygems/fjrodafo-test)
 
+[![Discord](https://img.shields.io/discord/1055998258025091102?style=flat&logo=discord&logoColor=5865F2&label=&color=FFFFFF)](https://discord.com/oauth2/authorize?client_id=1260588948544290927)
+[![Crowdin](https://img.shields.io/badge/Crowdin-FFFFFF?style=flat&logo=crowdin&logoColor=263238)](https://crowdin.com/profile/fjrodafo)
+
+[![Discord](https://img.shields.io/discord/1055998258025091102?style=flat&logo=discord&logoColor=FFFFFF&label=&color=5865F2)](https://discord.com/oauth2/authorize?client_id=1260588948544290927)
+[![Crowdin](https://img.shields.io/badge/Crowdin-263238?style=flat&logo=crowdin&logoColor=FFFFFF)](https://crowdin.com/profile/fjrodafo)
+
 ## Index
 
 1. [Introduction](#introduction)
