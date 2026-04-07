@@ -3,6 +3,8 @@
 [![GitHub Pages](https://img.shields.io/badge/%20-FFFFFF?style=social&logo=githubpages&logoColor=black&logoSize=auto)](https://fjrodafo.github.io/Test/)
 [![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/Test?style=social&logo=github&logoColor=black&label=Stars&labelColor=FFFFFF&color=FFFFFF)](https://github.com/FJrodafo/Test/stargazers)
 
+[![PageSpeed Insights](https://img.shields.io/badge/PageSpeed_Insights-100-00cc66?style=flat&logo=pagespeedinsights&labelColor=white)](https://pagespeed.web.dev/)
+
 [![Apache Maven](https://img.shields.io/badge/test-FFFFFF?style=flat&logo=apachemaven&logoColor=D22128)](https://github.com/FJrodafo/Test/packages/2915747)
 [![Containers](https://img.shields.io/badge/test-FFFFFF?style=flat&logo=docker&logoColor=2560FF)](https://github.com/FJrodafo/Test/pkgs/container/test)
 [![npm](https://img.shields.io/badge/test-FFFFFF?style=flat&logo=npm&logoColor=CD0000)](https://github.com/FJrodafo/Test/pkgs/npm/test)
