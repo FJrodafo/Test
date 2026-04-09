@@ -19,9 +19,11 @@
 
 [![Discord](https://img.shields.io/discord/1055998258025091102?style=flat&logo=discord&logoColor=5865F2&label=&color=FFFFFF)](https://discord.com/oauth2/authorize?client_id=1260588948544290927)
 [![Crowdin](https://img.shields.io/badge/Crowdin-FFFFFF?style=flat&logo=crowdin&logoColor=263238)](https://crowdin.com/profile/fjrodafo)
+[![YouTube](https://img.shields.io/badge/YouTube-FFFFFF?style=flat&logo=youtube&logoColor=FF0033)](https://www.youtube.com/@FJrodafo)
 
 [![Discord](https://img.shields.io/discord/1055998258025091102?style=flat&logo=discord&logoColor=FFFFFF&label=&color=5865F2)](https://discord.com/oauth2/authorize?client_id=1260588948544290927)
 [![Crowdin](https://img.shields.io/badge/Crowdin-263238?style=flat&logo=crowdin&logoColor=FFFFFF)](https://crowdin.com/profile/fjrodafo)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0033?style=flat&logo=youtube&logoColor=FFFFFF)](https://www.youtube.com/@FJrodafo)
 
 ## Index
 
