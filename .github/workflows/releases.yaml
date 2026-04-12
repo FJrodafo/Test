@@ -20,9 +20,9 @@ jobs:
       # Build artifacts
       - name: Build artifacts
         run: |
-          zip -r ${{ env.ARTIFACT }}-${{ github.ref_name }}.zip docs/ Packages/ CONTRIBUTING LICENSE
+          zip -r ${{ env.ARTIFACT }}-${{ github.ref_name }}.zip CONTRIBUTING LICENSE docs/ Packages/
           unzip -l ${{ env.ARTIFACT }}-${{ github.ref_name }}.zip
-          tar -czvf ${{ env.ARTIFACT }}-${{ github.ref_name }}.tar.gz docs/ Packages/ CONTRIBUTING LICENSE
+          tar -czvf ${{ env.ARTIFACT }}-${{ github.ref_name }}.tar.gz CONTRIBUTING LICENSE docs/ Packages/
           tar -tzvf ${{ env.ARTIFACT }}-${{ github.ref_name }}.tar.gz
       # Create GitHub Release
       - name: Create GitHub Release
