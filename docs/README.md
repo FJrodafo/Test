@@ -48,10 +48,7 @@ This project has been developed on a [Linux](https://github.com/torvalds/linux) 
 ```
 /
 ├── docs/
-|   ├── _config.yaml
-|   ├── CODE_OF_CONDUCT.md
-|   ├── README.md
-|   └── SECURITY.md
+|   └── *.md
 ├── Packages/
 |   ├── Apache_Maven/
 |   ├── Containers/
