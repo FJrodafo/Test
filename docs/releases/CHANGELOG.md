@@ -8,11 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- ...
+- New badges.
 
 ### Changed
 
-- ...
+- The TODO.md and release documents were moved to the docs directory.
 
 ### Deprecated
 
