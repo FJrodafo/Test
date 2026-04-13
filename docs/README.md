@@ -66,11 +66,13 @@ Open a terminal in the directory where you store your repositories and clone it 
 ```shell
 # HTTPS
 git clone https://github.com/FJrodafo/Test.git
+cd Test/
 ```
 
 ```shell
 # SSH
 git clone git@github.com:FJrodafo/Test.git
+cd Test/
 ```
 
 ## Apache Maven
