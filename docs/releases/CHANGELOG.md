@@ -8,11 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- New badges.
+- ...
 
 ### Changed
 
-- The TODO.md and release documents were moved to the docs directory.
+- ...
 
 ### Deprecated
 
@@ -29,6 +29,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 ### Security
 
 - ...
+
+## [1.0.5] - 2026/04/13
+
+### Added
+
+- New badges.
+
+### Changed
+
+- The TODO.md and release documents were moved to the docs directory.
+- `git archive` to compress files in the release workflow.
 
 ## [1.0.4] - 2026/04/06
 
@@ -85,7 +96,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - All files (Existing project).
 
-[unreleased]: https://github.com/FJrodafo/Test/compare/1.0.4...HEAD
+[unreleased]: https://github.com/FJrodafo/Test/compare/1.0.5...HEAD
+[1.0.5]: https://github.com/FJrodafo/Test/releases/tag/1.0.5
 [1.0.4]: https://github.com/FJrodafo/Test/releases/tag/1.0.4
 [1.0.3]: https://github.com/FJrodafo/Test/releases/tag/1.0.3
 [1.0.2]: https://github.com/FJrodafo/Test/releases/tag/1.0.2
