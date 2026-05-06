@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Changed
 
-- ...
+- CSS style colors to Hex code in the `README.md` Vercel, GitHub (Pages & Stars) and PageSpeed Insights labels.
 
 ### Deprecated
 
