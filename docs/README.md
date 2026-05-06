@@ -1,9 +1,9 @@
-# Test [![&#x25B2;Vercel](https://img.shields.io/badge/&#x25B2;Vercel-black?style=flat)](https://fjrodafo.vercel.app/)
+# Test [![&#x25B2;Vercel](https://img.shields.io/badge/&#x25B2;Vercel-000000?style=flat)](https://fjrodafo.vercel.app/)
 
-[![GitHub Pages](https://img.shields.io/badge/%20-FFFFFF?style=social&logo=githubpages&logoColor=black&logoSize=auto)](https://fjrodafo.github.io/Test/)
-[![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/Test?style=social&logo=github&logoColor=black&label=Stars&labelColor=FFFFFF&color=FFFFFF)](https://github.com/FJrodafo/Test/stargazers)
+[![GitHub Pages](https://img.shields.io/badge/%20-FFFFFF?style=social&logo=githubpages&logoColor=000000&logoSize=auto)](https://fjrodafo.github.io/Test/)
+[![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/Test?style=social&logo=github&logoColor=000000&label=Stars&labelColor=FFFFFF&color=FFFFFF)](https://github.com/FJrodafo/Test/stargazers)
 
-[![PageSpeed Insights](https://img.shields.io/badge/PageSpeed_Insights-100-00cc66?style=flat&logo=pagespeedinsights&labelColor=white)](https://pagespeed.web.dev/)
+[![PageSpeed Insights](https://img.shields.io/badge/PageSpeed_Insights-100-00cc66?style=flat&logo=pagespeedinsights&labelColor=FFFFFF)](https://pagespeed.web.dev/)
 
 [![Apache Maven](https://img.shields.io/badge/test-FFFFFF?style=flat&logo=apachemaven&logoColor=D22128)](https://github.com/FJrodafo/Test/packages/2915747)
 [![Containers](https://img.shields.io/badge/test-FFFFFF?style=flat&logo=docker&logoColor=2560FF)](https://github.com/FJrodafo/Test/pkgs/container/test)
