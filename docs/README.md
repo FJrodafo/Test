@@ -5,6 +5,10 @@
 
 [![PageSpeed Insights](https://img.shields.io/badge/PageSpeed_Insights-100-00cc66?style=flat&logo=pagespeedinsights&labelColor=FFFFFF)](https://pagespeed.web.dev/)
 
+[![Google Gemini](https://img.shields.io/badge/Gemini_3_Flash_Preview-FFFFFF?style=flat&logo=googlegemini&logoColor=8E75B2)](https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview)
+
+[![Google Gemini](https://img.shields.io/badge/Gemini_3_Flash_Preview-8E75B2?style=flat&logo=googlegemini&logoColor=FFFFFF)](https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview)
+
 [![Apache Maven](https://img.shields.io/badge/test-FFFFFF?style=flat&logo=apachemaven&logoColor=D22128)](https://github.com/FJrodafo/Test/packages/2915747)
 [![Containers](https://img.shields.io/badge/test-FFFFFF?style=flat&logo=docker&logoColor=2560FF)](https://github.com/FJrodafo/Test/pkgs/container/test)
 [![npm](https://img.shields.io/badge/test-FFFFFF?style=flat&logo=npm&logoColor=CD0000)](https://github.com/FJrodafo/Test/pkgs/npm/test)
